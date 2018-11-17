@@ -1,0 +1,6 @@
+BOOKINGID;BOOKING_CHECKIN;BOOKING_CHECKOUT;GUEST_NAME;GUEST_EMAIL;
+1;2018-07-01;2018-07-10;Fulano da Silva;fulano@email.com;
+1;2018-07-01;2018-07-10;Maria Pereira;maria@email.com;
+2;2018-07-01;2018-07-15;Paula Carvalho;carvalho@email.com;
+3;2018-07-01;;;email.com;
+4;2018-06-15;2018-06-23;;email.com;

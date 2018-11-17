@@ -1,0 +1,30 @@
+{
+  "Boookings": [
+    {
+      "Id": 1,
+      "CheckIn": "2018-07-01",
+      "CheckOut": "2018-07-10",
+      "Guest": [
+        {
+          "Name": "Fulano da Silva",
+          "E-mail": "fulano@email.com"
+        },
+        {
+          "Name": "Maria Pereira",
+          "E-mail": "maria@email.com"
+        }
+      ]
+    },
+    {
+      "Id": 2,
+      "CheckIn": "2018-07-01",
+      "CheckOut": "2018-07-15",
+      "Guest": [
+        {
+          "Name": "Paula Carvalho",
+          "E-mail": "carvalho@email.com"
+        }
+      ]
+    }
+  ]
+}

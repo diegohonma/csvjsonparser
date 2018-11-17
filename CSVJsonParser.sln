@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2050
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3129B084-F11A-4098-8418-C21CE6420FCB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{76AD0F7C-5C51-4B36-A079-16E7AFFA702F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSVJsonParser.Application", "src\CSVJsonParser.Application\CSVJsonParser.Application.csproj", "{1762B55C-F8E7-45C9-825D-CEB064BE0691}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSVJsonParser.Domain", "src\CSVJsonParser.Domain\CSVJsonParser.Domain.csproj", "{62317136-24E3-45EE-92DA-DC5BEBF7D04D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSVJsonParser.Ioc", "src\CSVJsonParser.Ioc\CSVJsonParser.Ioc.csproj", "{EC7C0589-EEEE-4884-9FB0-BA4273FD7D9F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSVJsonParser.Presentation", "src\CSVJsonParser.Presentation\CSVJsonParser.Presentation.csproj", "{F4E84D5D-5577-40E5-995C-0D7E43E626D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSVJsonParser.Tests", "test\CSVJsonParser.Tests\CSVJsonParser.Tests.csproj", "{4A05DBEC-5686-47F3-9515-D11DDE3A7BFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1762B55C-F8E7-45C9-825D-CEB064BE0691}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1762B55C-F8E7-45C9-825D-CEB064BE0691}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1762B55C-F8E7-45C9-825D-CEB064BE0691}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1762B55C-F8E7-45C9-825D-CEB064BE0691}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62317136-24E3-45EE-92DA-DC5BEBF7D04D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62317136-24E3-45EE-92DA-DC5BEBF7D04D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62317136-24E3-45EE-92DA-DC5BEBF7D04D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62317136-24E3-45EE-92DA-DC5BEBF7D04D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC7C0589-EEEE-4884-9FB0-BA4273FD7D9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC7C0589-EEEE-4884-9FB0-BA4273FD7D9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC7C0589-EEEE-4884-9FB0-BA4273FD7D9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC7C0589-EEEE-4884-9FB0-BA4273FD7D9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4E84D5D-5577-40E5-995C-0D7E43E626D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4E84D5D-5577-40E5-995C-0D7E43E626D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4E84D5D-5577-40E5-995C-0D7E43E626D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4E84D5D-5577-40E5-995C-0D7E43E626D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A05DBEC-5686-47F3-9515-D11DDE3A7BFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A05DBEC-5686-47F3-9515-D11DDE3A7BFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A05DBEC-5686-47F3-9515-D11DDE3A7BFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A05DBEC-5686-47F3-9515-D11DDE3A7BFC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1762B55C-F8E7-45C9-825D-CEB064BE0691} = {3129B084-F11A-4098-8418-C21CE6420FCB}
+		{62317136-24E3-45EE-92DA-DC5BEBF7D04D} = {3129B084-F11A-4098-8418-C21CE6420FCB}
+		{EC7C0589-EEEE-4884-9FB0-BA4273FD7D9F} = {3129B084-F11A-4098-8418-C21CE6420FCB}
+		{F4E84D5D-5577-40E5-995C-0D7E43E626D9} = {3129B084-F11A-4098-8418-C21CE6420FCB}
+		{4A05DBEC-5686-47F3-9515-D11DDE3A7BFC} = {76AD0F7C-5C51-4B36-A079-16E7AFFA702F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3B675280-3E98-48B2-BA3F-3325A42F5200}
+	EndGlobalSection
+EndGlobal
